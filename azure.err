@@ -1,29 +1,14 @@
-Sat Jul 05 2014 15:21:13 GMT-0700 (PDT):
-{ [Error: Unable to locate site named ftshortly]
-  stack: [Getter/Setter],
-  __frame: 
-   { name: 'lookupSiteNameAndWebSpace__19',
-     line: 841,
-     file: '/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js',
-     prev: 
-      { name: '__1',
-        line: 35,
-        file: '/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/site.scale._js',
-        prev: undefined,
-        active: false,
-        offset: 15,
-        col: 6 },
-     active: false,
-     offset: 12,
-     col: 4 },
-  rawStack: [Getter] }
-Error: Unable to locate site named ftshortly
-    at ___ (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js:837:20)
+Sat Jul 05 2014 16:25:29 GMT-0700 (PDT):
+[Error: Application setting with key "DATABASE_PASSWORD" already exists]
+Error: Application setting with key "DATABASE_PASSWORD" already exists
+    at ___ (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/site.appsetting._js:84:28)
     at ___ (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/streamline/lib/callbacks/runtime.js:85:13)
-    at ___ (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js:473:131)
-    at __tryCatch (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/streamline/lib/callbacks/runtime.js:141:4)
-    at ___ (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js:473:67)
-    at getSites__7 (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js:473:33)
-    at lookupSiteNameAndWebSpace__19 (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js:853:4)
-    at __1 (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/site.scale._js:50:6)
-
+    at /Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/lib/commands/asm/websites/websitesclient._js:542:14
+    at /Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure/node_modules/azure-mgmt-website/lib/webSiteManagementClient.js:3177:16
+    at Parser.<anonymous> (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure-common/node_modules/xml2js/lib/xml2js.js:246:20)
+    at Parser.EventEmitter.emit (events.js:95:17)
+    at Object.saxParser.onclosetag (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure-common/node_modules/xml2js/lib/xml2js.js:225:24)
+    at emit (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure-common/node_modules/xml2js/node_modules/sax/lib/sax.js:589:33)
+    at emitNode (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure-common/node_modules/xml2js/node_modules/sax/lib/sax.js:594:3)
+    at closeTag (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure-common/node_modules/xml2js/node_modules/sax/lib/sax.js:834:5)
+    at Object.write (/Users/HR10/.nvm/v0.10.25/lib/node_modules/azure-cli/node_modules/azure-common/node_modules/xml2js/node_modules/sax/lib/sax.js:1253:29)
